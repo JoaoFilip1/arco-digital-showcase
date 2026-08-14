@@ -60,9 +60,9 @@ export function ArcCarousel() {
         x -= cardWidth + GAP;
         const cardCenter = x + cardWidth / 2;
         const t = Math.max(-1, Math.min(1, (cardCenter - centerX) / half));
-        const y = -amplitude * Math.cos((Math.PI * t) / 2) ** 2 + amplitude * 0;
+        const drop = amplitude * (1 - Math.cos((Math.PI * t) / 2));
         const rot = 4 * t;
-        el.style.transform = `translate3d(${x}px, ${amplitude + y}px, 0) rotate(${rot}deg)`;
+        el.style.transform = `translate3d(${x}px, ${drop}px, 0) rotate(${rot}deg)`;
       });
     };
 
