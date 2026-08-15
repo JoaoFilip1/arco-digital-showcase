@@ -2,7 +2,7 @@ import { ArcCarousel } from "./ArcCarousel";
 
 export function Hero() {
   return (
-    <section id="inicio" className="relative overflow-hidden pt-36 sm:pt-44">
+    <section id="inicio" className="relative overflow-hidden pt-32 sm:pt-36">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[620px] bg-[radial-gradient(60%_60%_at_50%_0%,var(--ice)_0%,transparent_70%)]"
@@ -14,7 +14,7 @@ export function Hero() {
         </p>
 
         <h1
-          className="animate-rise mt-8 text-4xl font-semibold leading-[1.08] tracking-tight text-foreground sm:text-6xl"
+          className="animate-rise mt-7 text-4xl font-semibold leading-[1.08] tracking-tight text-foreground sm:text-5xl"
           style={{ animationDelay: "80ms" }}
         >
           Transformamos ideias em
@@ -34,7 +34,7 @@ export function Hero() {
         </p>
 
         <div
-          className="animate-rise mt-9 flex flex-wrap items-center justify-center gap-3"
+          className="animate-rise mt-8 flex flex-wrap items-center justify-center gap-3"
           style={{ animationDelay: "240ms" }}
         >
           <a
@@ -61,13 +61,13 @@ export function Hero() {
 
       <div
         id="projetos"
-        className="animate-rise mt-16 scroll-mt-28 sm:mt-24"
+        className="animate-rise mt-10 scroll-mt-28 sm:mt-14"
         style={{ animationDelay: "400ms" }}
       >
         <ArcCarousel />
       </div>
 
-      <div className="mb-16 flex flex-col items-center gap-2 text-muted-foreground">
+      <div className="mb-16 mt-2 flex flex-col items-center gap-2 text-muted-foreground">
         <span className="flex h-7 w-4 items-start justify-center rounded-full border border-border pt-1.5">
           <span className="size-1 rounded-full bg-muted-foreground/60" />
         </span>
