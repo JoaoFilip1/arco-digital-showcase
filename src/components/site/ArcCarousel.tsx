@@ -34,7 +34,7 @@ export function ArcCarousel() {
 
   // responsive sizing
   const cardWidth = width >= 1280 ? 210 : width >= 1024 ? 190 : width >= 768 ? 200 : 190;
-  const amplitude = width >= 1024 ? 74 : width >= 768 ? 54 : 30;
+  const amplitude = width >= 1024 ? 92 : width >= 768 ? 62 : 34;
   const step = cardWidth + GAP;
   const copies = width > 0 ? Math.max(2, Math.ceil((width + step * 2) / (projects.length * step))) : 2;
   const items = Array.from({ length: copies }, () => projects).flat();
