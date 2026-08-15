@@ -82,6 +82,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Cruz Systems" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Cruz Systems" },
+      { name: "twitter:title", content: "Cruz Systems" },
+      { property: "og:description", content: "Sistemas, sites e soluções digitais para empresas." },
+      { name: "twitter:description", content: "Sistemas, sites e soluções digitais para empresas." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7aecaf2e4b60312f96038cb9d2ef8b55/id-preview-885e65e0--ff256cb6-38e5-47b5-a82a-6b191ed6104d.lovable.app-1786752512930.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7aecaf2e4b60312f96038cb9d2ef8b55/id-preview-885e65e0--ff256cb6-38e5-47b5-a82a-6b191ed6104d.lovable.app-1786752512930.png" },
     ],
     links: [
       {
